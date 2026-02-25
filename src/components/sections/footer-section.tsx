@@ -27,7 +27,7 @@ export default function FooterSection() {
                             <Linkedin size={28} />
                             <span className="sr-only">LinkedIn</span>
                         </Link>
-                         <Link href="mailto:1horyuarthur@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
+                        <Link href="mailto:1horyuarthur@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
                             <Mail size={28} />
                             <span className="sr-only">Email</span>
                         </Link>
@@ -38,9 +38,16 @@ export default function FooterSection() {
                     <p className="text-sm text-muted-foreground/80">
                         Este portfólio apresenta uma seleção dos meus trabalhos favoritos. Se desejar ver mais exemplos ou discutir um projeto, não hesite em entrar em contato.
                     </p>
+                    <Link
+                        href="/retro"
+                        className="inline-block mt-4 text-xs text-muted-foreground/40 hover:text-primary transition-colors font-mono tracking-wider"
+                        title="Versão Web 1.0"
+                    >
+                        {'>'} ver versão retro_web1.0 {'<'}
+                    </Link>
                 </div>
             </div>
-            
+
             <div className="border-t border-border/50 py-6">
                 <div className="container mx-auto px-4 text-center text-sm text-muted-foreground/60 space-y-2">
                     <p>Desenvolvido com muito carinho e detalhe a pedido da Jaqueline.</p>

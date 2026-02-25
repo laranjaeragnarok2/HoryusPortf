@@ -1,5 +1,21 @@
 
-import type {NextConfig} from 'next';
+// Fix broken localStorage injected by IDX/Firebase --localstorage-file flag
+if (typeof globalThis !== 'undefined' && typeof globalThis.localStorage !== 'undefined') {
+  const ls = globalThis.localStorage as any;
+  if (typeof ls.getItem !== 'function') {
+    (globalThis as any).localStorage = {
+      _data: {} as Record<string, string>,
+      getItem(key: string) { return this._data[key] ?? null; },
+      setItem(key: string, value: string) { this._data[key] = String(value); },
+      removeItem(key: string) { delete this._data[key]; },
+      clear() { this._data = {}; },
+      key(index: number) { return Object.keys(this._data)[index] ?? null; },
+      get length() { return Object.keys(this._data).length; },
+    };
+  }
+}
+
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   /* config options here */
