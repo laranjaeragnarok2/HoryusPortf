@@ -32,20 +32,19 @@ type AudiovisualProject = {
 
 const audiovisualProjects: AudiovisualProject[] = [
     { 
-        title: "Stance Stickers Design", 
+        title: "Stance Stickers Design",
         images: [
-            { src: "https://raw.githubusercontent.com/laranjaeragnarok2/meu-portfolio-assets/refs/heads/main/Colab%20com%20a%20%40antinpc_clubObrigado%20pela%20confian%C3%A7a%20irm%C3%A3o%20%40hugoosousa%23carsticker%20%23customstickers%20%23.webp", hint: "car sticker" }, 
-            { src: "https://scontent-bsb1-1.xx.fbcdn.net/v/t39.30808-6/492545810_10212573905940735_4051312092924235796_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHbI_eOj46XZFo0W6tZBfuHVzFjDrZhkWVXMWMOtmGRZegN5anCWOg_vtA5Akm7jik&_nc_ohc=HopDdTVlSWgQ7kNvwHCJjUv&_nc_oc=Adkp468FLBpMEdaWcWB5pfFSa1gCe9ncJx-OeH4GyF2bpyNe5862-nAkXB8jgZ98Ark&_nc_zt=23&_nc_ht=scontent-bsb1-1.xx&_nc_gid=DPU0fcLvi_MYADPaNp5MKA&oh=00_AfTYufIgbWPrebrz57ysp3Xgk2S8nGwIkV1IMPHZPakhsw&oe=6879099D", hint: "street art" },
-            { src: "https://scontent-bsb1-1.xx.fbcdn.net/v/t39.30808-6/492069908_10212573905100714_6989240701723839438_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGxi4biWYS1q1SHPDP6avGgq1H4Cgl5V82rUfgKCXlXzczDHARX5CaToX_yzd4LgJQ&_nc_ohc=80ICiWM4zqQQ7kNvwESB3vS&_nc_oc=AdkLgkd-0XjmarmS7dGkLmk-U_hjWwOIYVoD-BkvVLtcFBUt12e0NAC-BLuDGwcMoQc&_nc_zt=23&_nc_ht=scontent-bsb1-1.xx&_nc_gid=DViImCGDYXXuInmf7eyvpA&oh=00_AfRXJl5hxUES9MS0idhOOhDWI3jgD_n7F0H3GTYg5pL68w&oe=68790C2B", hint: "car sticker night" }
-        ], 
-        span: "" 
+            { src: "https://raw.githubusercontent.com/laranjaeragnarok2/meu-portfolio-assets/refs/heads/main/Colab%20com%20a%20%40antinpc_clubObrigado%20pela%20confian%C3%A7a%20irm%C3%A3o%20%40hugoosousa%23carsticker%20%23customstickers%20%23.webp", hint: "car sticker" },
+            { src: "/assets/projects/sticker1.jpg", hint: "street art" },
+            { src: "/assets/projects/sticker2.jpg", hint: "car sticker night" }
+        ],        span: "" 
     },
     { 
         title: "Ensaio Streetwear 064 Camisetas", 
         images: [
-            { src: "https://scontent-bsb1-1.xx.fbcdn.net/v/t39.30808-6/492518015_10212582753001906_1097093899405753835_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHm9FsXBsWMrsYs2NKbLmmOq2rKUR7hUJeraspRHuFQlzeL_o6sAMQudgI826RC-og&_nc_ohc=fM8_RjbKUWIQ7kNvwGKNlWo&_nc_oc=AdkNYybb_6_PrtAxEVnE8qD1stmRBfq9zRkplwMHEGxr_SZPnM3KpKz9czZihy8YPr4&_nc_zt=23&_nc_ht=scontent-bsb1-1.xx&_nc_gid=UGa-lkd3zyLF03ALkaXX1A&oh=00_AfTt_divWj-nMbZCQkuaOVuauCoO1DgXintQrnX-ki1nQg&oe=6878FA40", hint: "photo shoot" }, 
-            { src: "https://scontent-bsb1-1.xx.fbcdn.net/v/t39.30808-6/492463230_10212582756001981_5021368785761829477_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeELJ1HXCpP9e_vhPvxl3U-IA8I9EMQ4HBgDwj0QxDgcGPBL7ysSgLasWqyUrJsYCpA&_nc_ohc=BZWBQqBhqmwQ7kNvwEPAAw6&_nc_oc=Adn-MAC9r8dc_H6iUz9CPC8Xae8vIJw3tP56bllpoMn-ucnSb_7MUGAmz3HScca01rk&_nc_zt=23&_nc_ht=scontent-bsb1-1.xx&_nc_gid=sD6LXacb7ewo_WfiujKxLg&oh=00_AfSI7DewbN0knqwolv6SE9SzYqeJ1HZaupTNcc1PhevlIg&oe=6878F17B", hint: "fashion model" },
-            { src: "https://scontent-bsb1-1.xx.fbcdn.net/v/t39.30808-6/492685810_10212582755721974_8690676233239382494_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGuOf1ihn4PUImwryilgZ4eFbX3fjYIR4gVtfd-NghHiGZQeeHS3aBmcAp6IMqZF2s&_nc_ohc=8JRtLdPotD0Q7kNvwE9Bq1L&_nc_oc=AdnKioQkrlif4oTPN7ymE5XaohfRgO4z7gJOsZ9gZ9TYpraWJVDF90Gu3VtbQ0NXcKs&_nc_zt=23&_nc_ht=scontent-bsb1-1.xx&_nc_gid=PjXWfZM_Gg4xWkzoJRwiog&oh=00_AfQCizFoo3sjEnDMUE3tQSjSfX3kWx0ZbfnAKqdw4AbAgQ&oe=6878F201", hint: "fashion model outdoor" }
+            { src: "/assets/projects/ensaio1.jpg", hint: "photo shoot" }, 
+            { src: "/assets/projects/ensaio2.jpg", hint: "fashion model" },
+            { src: "/assets/projects/ensaio3.jpg", hint: "fashion model outdoor" }
         ], 
         span: "col-span-1" 
     },
@@ -70,8 +69,8 @@ const audiovisualProjects: AudiovisualProject[] = [
     { 
         title: "Custom DarkLettering Vinil", 
         images: [
-            { src: "https://scontent-bsb1-1.xx.fbcdn.net/v/t39.30808-6/492360556_10212567868429801_7160581523740932131_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFdeHPlAdzsYNb7RnGpjX1tXq7Co6h1F-1ersKjqHUX7YGt90Ds580qw33ai07f4fI&_nc_ohc=d2vaDxVZ7aAQ7kNvwGhcgdA&_nc_oc=AdnfaY8m9qZTYCJUlBlLtsr-hC0dDBcgjgsZ6rmBFn8B61cPQPXR8gXk2sMdHdy3zSI&_nc_zt=23&_nc_ht=scontent-bsb1-1.xx&_nc_gid=Lm5hCc2ql9MV7iYF-Ae8aQ&oh=00_AfR6MUx-NbBoMJzELXdZWJ8nSjAMwccx6GMBlckvUIqANw&oe=68791F0B", hint: "custom lettering" }, 
-            { src: "https://scontent-bsb1-1.xx.fbcdn.net/v/t39.30808-6/492516300_10212567869189820_7135244700239007909_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHqumprjG2YtEK-gGyd037n4Bv6mHKb5eXgG_qYcpvl5VKcfTeWh3WWVQwKYsAFEss&_nc_ohc=Z7WqXcyjgqgQ7kNvwGl6hUv&_nc_oc=AdkLNuwScTHFK-TsaIs-7Fi7GUYRdFZMZB91HJ8qvKrClGvw-PrZ3fr6amG8nKFzTqs&_nc_zt=23&_nc_ht=scontent-bsb1-1.xx&_nc_gid=9LCKIQauajK7wDu9A58COw&oh=00_AfSl5Kd4ehsvtQyBNq81Gf1gJmi6tx2apNX1Pd5oWg-Ajg&oe=68791948", hint: "vinyl sticker" },
+            { src: "/assets/projects/dark1.jpg", hint: "custom lettering" }, 
+            { src: "/assets/projects/dark2.jpg", hint: "vinyl sticker" },
             { src: "https://scontent-bsb1-1.xx.fbcdn.net/v/t39.30808-6/492527251_10212567867989790_4339247791101849919_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGoanRyLz38rVveBOq5FGp5Co6YaRCNbPgKjphpEI1s-FbZHAZmpF0Pi-2bXW1ZGMU&_nc_ohc=C8nzB2DjhJcQ7kNvwEiEz0R&_nc_oc=AdlLQh_3e-zll-l_4Aw_b7fzF5Z8L4YS5O4cld38C_Sjhw2skE2qZa5EnFsDj7p9f64&_nc_zt=23&_nc_ht=scontent-bsb1-1.xx&_nc_gid=bofnQIPgG_jbCiMkDtzTvw&oh=00_AfSVr_TsCufx_KDBBDx-OtLUN5MbviDo0UMO6vM_yWFrsw&oe=68792409", hint: "dark lettering car" }
         ], 
         span: "col-span-1" 
