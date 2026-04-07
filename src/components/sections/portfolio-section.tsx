@@ -108,7 +108,7 @@ const audiovisualProjects: AudiovisualProject[] = [
         images: [
             { src: "https://scontent-bsb1-1.xx.fbcdn.net/v/t39.30808-6/464413852_10211713131341908_4594013960881120493_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeGgYQfX5bB7BQlWV8-6vA6gHbk9v9o6ZhcduT2_2jpmF8icrWWWVTGSIP5fu9bVHdo&_nc_ohc=Oo82voyzYLQQ7kNvwF9B5fi&_nc_oc=Adl3ESW5SsWLzV7jVHA929nxGGG2VvBrmNw6_kY_eUzeCnPcO5CU7a7XMSmfSGl45ag&_nc_zt=23&_nc_ht=scontent-bsb1-1.xx&_nc_gid=BmdEbmkkzIyFuIWg8fgC5A&oh=00_AfSgxwWPh3vp0gKk6TxD060hWxiqln22uuQpo_bcOLv8KA&oe=68790922", hint: "live music" },
             { src: "https://scontent-bsb1-1.xx.fbcdn.net/v/t39.30808-6/464386203_10211713634114477_1531813235054857196_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGbY3Sq8MgW_iq96gpe08tfhyqijkftK7CHKqKOR-0rsE5CsCxT63vcQOWYxJmqMnc&_nc_ohc=9OM9z_jWPL4Q7kNvwHCyIlG&_nc_oc=Admqb75PvEo4CyUzc6rrPUJTR_q-ypcCYc8dumUQxw98mNq-t__o6mxYg_w49RLcxNw&_nc_zt=23&_nc_ht=scontent-bsb1-1.xx&_nc_gid=ZWL0dagD9i8CDh4eiJ8GQA&oh=00_AfQkfALvKvRpWQS_zSHq0HSdhGMmbdIkaanpLS9KM4p9lw&oe=68791538", hint: "singer stage" },
-            { src: "https://scontent-bsb1-1.xx.fbcdn.net/v/t39.30808-6/464736276_10211744043474692_7058248885745509735_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeEYlWUpUILJRL99AcwwH5fz_TaO2mfOY0T9No7aZ85jRMaMc-g1yktvdjF5ztt4TxY&_nc_ohc=iSCOLhhQhjYQ7kNvwG5bbK0&_nc_oc=AdmFWwWwF5SzvNX5OD6lPnWB-V5Q1O1jRhMuyG_xsclBsRi5RfiytdpYzoD_No4bg_g&_nc_zt=23&_nc_ht=scontent-bsb1-1.xx&_nc_gid=cGP7rSU2I7KyoGyCm__AuQ&oh=00_AfRdT1Njr1uJplCK2DTOk1ALjcUjZX3wfxTZ4tG3CgBHKA&oe=687913D1", hint: "musician crowd" }
+            { src: "/msp.png", hint: "musician crowd" }
         ], 
         span: "col-span-1" 
     },

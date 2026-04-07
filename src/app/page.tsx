@@ -11,7 +11,16 @@ const techProjects: Project[] = [
         hint: "msp group sovereign stack",
         link: "https://msp.group",
         tags: ["NextAuth", "Firebase", "Automation", "Digital Sovereignty"],
-        className: "md:col-span-2"
+        className: "md:col-span-1"
+    },
+    {
+        title: "Agência Métrica — Landing Page de Alta Conversão",
+        description: "Desenvolvimento de uma landing page ultra-focada em performance e conversão para tráfego pago. Utilizando Next.js e Tailwind CSS, a estrutura foi otimizada para carregamento instantâneo em dispositivos móveis, garantindo que nenhum lead seja perdido. Integração direta com APIs de rastreamento para mensuração precisa de ROI em campanhas de negócios locais.",
+        image: "/metrica.png",
+        hint: "agencia metrica conversion lp",
+        link: "https://github.com/laranjaeragnarok2/agencia-metrica",
+        tags: ["Next.js", "Performance Ops", "CRO", "Local Business"],
+        className: "md:col-span-1"
     },
     {
         title: "Legado da Ponte de Pedra (Site and Short-film)",
