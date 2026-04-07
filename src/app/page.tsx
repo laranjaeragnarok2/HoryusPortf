@@ -5,6 +5,15 @@ import type { VideoProject } from "@/components/sections/video-section";
 
 const techProjects: Project[] = [
     {
+        title: "MSP.Group — The Sovereign Growth Stack",
+        description: "Construção de um ecossistema digital blindado e ultrarrápido. Unindo a estética Dark/Gold com engenharia de ponta, o projeto automatiza todo o funil: desde a captura via Lead Magnets até o fechamento via CRM integrado. Uma prova de conceito de como a união entre design sofisticado e automação severa pode escalar operações de consultoria sem custos fixos de software.",
+        image: "/msp.png",
+        hint: "msp group sovereign stack",
+        link: "https://msp.group",
+        tags: ["NextAuth", "Firebase", "Automation", "Digital Sovereignty"],
+        className: "md:col-span-2"
+    },
+    {
         title: "Legado da Ponte de Pedra (Site and Short-film)",
         description: "Este é o repositório oficial do projeto \"Legado da Ponte de Pedra\". Mais do que um site, é uma plataforma de conscientização e mobilização para a preservação de um dos mais importantes patrimônios geológicos, arqueológicos e culturais de Goiás, localizado na divisa entre Rio Verde e Paraúna.",
         image: "https://i.postimg.cc/gJrxYgyq/68747470733a2f2f692e706f7374696d672e63632f78546758784377502f3364613234653566366163346631383837376430.jpg",
