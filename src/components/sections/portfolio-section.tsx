@@ -31,75 +31,75 @@ type AudiovisualProject = {
 };
 
 const audiovisualProjects: AudiovisualProject[] = [
-    { 
+    {
         title: "Stance Stickers Design",
         images: [
             { src: "https://raw.githubusercontent.com/laranjaeragnarok2/meu-portfolio-assets/refs/heads/main/Colab%20com%20a%20%40antinpc_clubObrigado%20pela%20confian%C3%A7a%20irm%C3%A3o%20%40hugoosousa%23carsticker%20%23customstickers%20%23.webp", hint: "car sticker" },
             { src: "/assets/projects/sticker1.jpg", hint: "street art" },
             { src: "/assets/projects/sticker2.jpg", hint: "car sticker night" }
-        ],        span: "" 
+        ], span: ""
     },
-    { 
-        title: "Ensaio Streetwear 064 Camisetas", 
+    {
+        title: "Ensaio Streetwear 064 Camisetas",
         images: [
-            { src: "/assets/projects/ensaio1.jpg", hint: "photo shoot" }, 
+            { src: "/assets/projects/ensaio1.jpg", hint: "photo shoot" },
             { src: "/assets/projects/ensaio2.jpg", hint: "fashion model" },
             { src: "/assets/projects/ensaio3.jpg", hint: "fashion model outdoor" }
-        ], 
-        span: "col-span-1" 
+        ],
+        span: "col-span-1"
     },
-    { 
-        title: "Custom DarkLettering Vinil", 
+    {
+        title: "Custom DarkLettering Vinil",
         images: [
-            { src: "/assets/projects/dark1.jpg", hint: "custom lettering" }, 
+            { src: "/assets/projects/dark1.jpg", hint: "custom lettering" },
             { src: "/assets/projects/dark2.jpg", hint: "vinyl sticker" }
-        ], 
-        span: "col-span-1" 
+        ],
+        span: "col-span-1"
     },
-    { 
-        title: "Clipe Musical - Passado", 
+    {
+        title: "Clipe Musical - Passado",
         images: [
-            { src: "https://raw.githubusercontent.com/laranjaeragnarok2/meu-portfolio-assets/main/Contemplem%20a%20fotografia%20por%20tr%C3%A1s%20de%20'%20P%20A%20S%20S%20A%20D%20O%20'%20um%20videoclipe%20do%20single%20do%20meu%20consagrado%20%20(1).jpg", hint: "music video" }, 
+            { src: "https://raw.githubusercontent.com/laranjaeragnarok2/meu-portfolio-assets/main/Contemplem%20a%20fotografia%20por%20tr%C3%A1s%20de%20'%20P%20A%20S%20S%20A%20D%20O%20'%20um%20videoclipe%20do%20single%20do%20meu%20consagrado%20%20(1).jpg", hint: "music video" },
             { src: "https://raw.githubusercontent.com/laranjaeragnarok2/meu-portfolio-assets/main/Contemplem%20a%20fotografia%20por%20tr%C3%A1s%20de%20'%20P%20A%20S%20S%20A%20D%20O%20'%20um%20videoclipe%20do%20single%20do%20meu%20consagrado%20%20(2).jpg", hint: "singer" },
             { src: "https://raw.githubusercontent.com/laranjaeragnarok2/meu-portfolio-assets/main/Contemplem%20a%20fotografia%20por%20tr%C3%A1s%20de%20'%20P%20A%20S%20S%20A%20D%20O%20'%20um%20videoclipe%20do%20single%20do%20meu%20consagrado%20.jpg", hint: "music video set" }
-        ], 
-        span: "col-span-1" 
+        ],
+        span: "col-span-1"
     },
-    { 
-        title: "Bosque da Cultura", 
+    {
+        title: "Bosque da Cultura",
         images: [
-            { src: "https://i.postimg.cc/KYJLNkvj/IMG-1034-2.jpg", hint: "culture event" }, 
+            { src: "https://i.postimg.cc/KYJLNkvj/IMG-1034-2.jpg", hint: "culture event" },
             { src: "https://i.postimg.cc/tTJ6mqY5/IMG-1028-2.jpg", hint: "outdoor concert" },
             { src: "https://i.postimg.cc/MKQ7Spt3/IMG-1018-2.jpg", hint: "people gathering" }
-        ], 
-        span: "col-span-1" 
+        ],
+        span: "col-span-1"
     },
-    { 
-        title: "Apresentações Musicais", 
+    {
+        title: "Apresentações Musicais",
         images: [
             { src: "/assets/projects/apresen1.jpg", hint: "live music" },
             { src: "/assets/projects/apresen2.jpg", hint: "singer stage" },
             { src: "/assets/projects/apresen3.jpg", hint: "musician crowd" }
-        ], 
-        span: "col-span-1" 
+        ],
+        span: "col-span-1"
     },
-    { 
-        title: "Space Psicodelico", 
+    {
+        title: "Space Psicodelico",
         images: [
             { src: "https://i.postimg.cc/fR5jHg8M/IMG-9586.jpg", hint: "psychedelic space" },
             { src: "https://i.postimg.cc/WbLntZDc/IMG-9405.jpg", hint: "abstract art" },
             { src: "https://i.postimg.cc/fR5jHg8M/IMG-9586.jpg", hint: "colorful nebula" }
-        ], 
-        span: "col-span-1" 
+        ],
+        span: "col-span-1"
     },
-    { 
-        title: "Moon Effect", 
+    {
+        title: "Moon Effect",
         images: [
-            { src: "https://i.postimg.cc/52tFt9mM/IMG-6140.jpg", hint: "moon effect" }, 
+            { src: "https://i.postimg.cc/52tFt9mM/IMG-6140.jpg", hint: "moon effect" },
             { src: "https://i.postimg.cc/nc2DZ9Bk/IMG-6010-2.jpg", hint: "light flare" },
             { src: "https://i.postimg.cc/h49my5GN/IMG-5944.jpg", hint: "abstract light" }
-        ], 
-        span: "col-span-1" 
+        ],
+        span: "col-span-1"
     },
 ];
 
@@ -126,7 +126,7 @@ const ProjectGrid = ({ projects }: { projects: Project[] }) => (
                         data-ai-hint={item.hint}
                         className="object-cover transition-transform duration-300 group-hover:scale-105"
                     />
-                     <div className="absolute inset-0 bg-black/50 transition-colors" />
+                    <div className="absolute inset-0 bg-black/50 transition-colors" />
                 </div>
                 <div className="p-6 flex flex-col flex-grow">
                     <div className="flex-grow">
@@ -138,9 +138,9 @@ const ProjectGrid = ({ projects }: { projects: Project[] }) => (
                     <CardFooter className="p-0 pt-4 flex justify-between items-center mt-auto">
                         <div className="flex flex-wrap gap-2 items-center">
                             {item.tags.map(tag => <Badge key={tag} variant="secondary">{tag}</Badge>)}
-                             {item.specialLink && item.specialLinkText && (
+                            {item.specialLink && item.specialLinkText && (
                                 <Link href={item.specialLink} target="_blank" rel="noopener noreferrer" className="relative overflow-hidden text-xs bg-primary/20 text-primary-foreground/80 px-2 py-1 rounded transition-all duration-300 reflection hover:reflection hover:bg-primary/80 hover:text-primary-foreground hover:-translate-y-px cursor-pointer">
-                                  {item.specialLinkText}
+                                    {item.specialLinkText}
                                 </Link>
                             )}
                         </div>
@@ -172,23 +172,23 @@ const MosaicCellContent = ({ project, onMouseEnter, onMouseLeave }: { project: A
     useEffect(() => {
         stopInterval();
         if (project.images.length > 1) {
-            const randomDelay = Math.random() * 4000 + 3000; 
+            const randomDelay = Math.random() * 4000 + 3000;
             intervalRef.current = setInterval(() => {
                 setCurrentIndex(prev => (prev + 1) % project.images.length);
             }, randomDelay);
         }
-        
+
         return () => stopInterval();
     }, [project.images]);
 
     return (
-        <div 
+        <div
             className="relative overflow-hidden group h-full w-full cursor-pointer"
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}
         >
             {project.images.map((image, index) => (
-                 <Image
+                <Image
                     key={index}
                     src={image.src}
                     alt={project.title}
@@ -215,7 +215,7 @@ const MosaicCell = ({ project, onSelect }: { project: AudiovisualProject, onSele
 
     return (
         <div className={cn(project.span, 'h-full')} onClick={onSelect}>
-             <MosaicCellContent 
+            <MosaicCellContent
                 project={project}
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
@@ -252,7 +252,7 @@ const Lightbox = ({ project, open, onOpenChange }: { project: AudiovisualProject
                     <CarouselNext className="right-2" />
                 </Carousel>
                 <DialogClose className="absolute -top-2 -right-2 rounded-full bg-background/50 p-1 text-foreground opacity-100 hover:bg-background/80">
-                  <X className="h-4 w-4" />
+                    <X className="h-4 w-4" />
                 </DialogClose>
             </DialogContent>
         </Dialog>
@@ -285,10 +285,10 @@ export default function PortfolioSection({ techProjects }: PortfolioSectionProps
             const isDesktopQuery = window.matchMedia(`(min-width: ${DESKTOP_BREAKPOINT}px)`);
             setIsDesktop(isDesktopQuery.matches);
         };
-        
+
         checkScreenSize();
         window.addEventListener('resize', checkScreenSize);
-        
+
         return () => window.removeEventListener('resize', checkScreenSize);
     }, []);
 
@@ -299,15 +299,15 @@ export default function PortfolioSection({ techProjects }: PortfolioSectionProps
 
     const projectsToShow = isDesktop ? techProjects : techProjects.slice(0, visibleCount);
     const showMoreButtonIsVisible = !isDesktop && !isExpanded && techProjects.length > INITIAL_VISIBLE_PROJECTS;
-    
+
     return (
         <>
             <section id="portfolio" className="py-16 sm:py-24 space-y-24">
                 <div className="bg-background">
                     <div className="container mx-auto px-4">
-                        <SectionTitle 
+                        <SectionTitle
                             icon={Code}
-                            title="Canvas Digital"
+                            title="Projetos em Destaque"
                             description="Uma seleção de meus trabalhos mais recentes e relevantes em desenvolvimento e tecnologia."
                         />
                         <ProjectGrid projects={projectsToShow} />
@@ -329,7 +329,7 @@ export default function PortfolioSection({ techProjects }: PortfolioSectionProps
                 </div>
                 <div className="bg-card">
                     <div className="container mx-auto px-4 py-16 sm:py-24">
-                        <SectionTitle 
+                        <SectionTitle
                             icon={Film}
                             title="Olhar Criativo"
                             description="explorações do mundo de maneira visual, com foto video e produção de experiências"

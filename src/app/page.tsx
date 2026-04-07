@@ -5,6 +5,33 @@ import type { VideoProject } from "@/components/sections/video-section";
 
 const techProjects: Project[] = [
     {
+        title: "Mercado Pago Gateway — Integração",
+        description: "Sistema robusto de mensageria e processamento de pagamentos integrado ao Mercado Pago. Inclui dashboard para monitoramento, sincronização automática de status (polling/webhooks), banco de dados em PostgreSQL com transações idempotentes e suporte a pagamentos programáticos via API keys (IA-ready).",
+        image: "/gateway.png",
+        hint: "payment gateway dashboard",
+        link: "",
+        tags: ["Mercado Pago", "PostgreSQL", "API", "Idempotency"],
+        className: ""
+    },
+    {
+        title: "JDE Pacheco — Engineering & Tech Portal",
+        description: "Portal B2B de engenharia e infraestrutura. Design industrial focado na soberania de marca, apresentando portfólio de obras, licitações e uma área exclusiva de Investor Hub.",
+        image: "/JDE-PAcheco.png",
+        hint: "jde pacheco engineering portal",
+        link: "https://github.com/laranjaeragnarok2/jde-sovereign-portal",
+        tags: ["Next.js", "B2B", "Industrial Design", "Investor Hub"],
+        className: ""
+    },
+    {
+        title: "Skarner — Assistente de IA de Elite",
+        description: "Protocolo Battlecast baseado na arquitetura OpenClaw e Google Gemini 2.0. Um assistente focado em engenharia tática, monitoramento contínuo de projetos e geração de scripts rápidos para automação local.",
+        image: "/skarner.jpeg",
+        hint: "ai elite assistant",
+        link: "https://github.com/laranjaeragnarok2/Skarner",
+        tags: ["AI Assistant", "Gemini 2.0", "OpenClaw", "Automação"],
+        className: ""
+    },
+    {
         title: "MSP.Group — The Sovereign Growth Stack",
         description: "Construção de um ecossistema digital blindado e ultrarrápido. Unindo a estética Dark/Gold com engenharia de ponta, o projeto automatiza todo o funil: desde a captura via Lead Magnets até o fechamento via CRM integrado. Uma prova de conceito de como a união entre design sofisticado e automação severa pode escalar operações de consultoria sem custos fixos de software.",
         image: "/msp.png",
