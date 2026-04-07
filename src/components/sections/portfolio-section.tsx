@@ -49,15 +49,6 @@ const audiovisualProjects: AudiovisualProject[] = [
         span: "col-span-1" 
     },
     { 
-        title: "Ensaio Streetwear Chronic x 064 Camisetas", 
-        images: [
-            { src: "https://i.postimg.cc/dVSwjJcv/Recap-Ensaio-que-fiz-comissionado-pela-064-camisetas-Eu-gosto-muito-da-liberdade-que-meu-6.webp", hint: "streetwear fashion" }, 
-            { src: "https://i.postimg.cc/Gp8rM6bD/Recap-Ensaio-que-fiz-comissionado-pela-064-camisetas-Eu-gosto-muito-da-liberdade-que-meu-5.webp", hint: "urban model" },
-            { src: "https://i.postimg.cc/6QkKFzQm/Recap-Ensaio-que-fiz-comissionado-pela-064-camisetas-Eu-gosto-muito-da-liberdade-que-meu-4.webp", hint: "apparel photoshoot" }
-        ], 
-        span: "col-span-1" 
-    },
-    { 
         title: "Custom DarkLettering Vinil", 
         images: [
             { src: "/assets/projects/dark1.jpg", hint: "custom lettering" }, 
