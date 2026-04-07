@@ -2,6 +2,13 @@ import { Badge } from "@/components/ui/badge";
 
 const experiences = [
     {
+        role: "TechLead & Diretor Criativo",
+        company: "Ferdinan MSP Group",
+        period: "2026",
+        description: "Implementação de um hub de crescimento B2B focado em autoridade visual e conversão inteligente. O sistema conta com um 'AI Concierge' via Google Genkit (Gemini API) para qualificação automatizada de ICP, além de um motor de geração de propostas comerciais em PDF. Design premium para retenção de leads de alto ticket.",
+        tags: ["AI Concierge", "Genkit", "Business Intelligence", "UI/UX Premium"]
+    },
+    {
         role: "Líder de Projeto Web e Desenvolvedor Full-Stack",
         company: "Instituto Guardião das Abelhas",
         period: "2025",
