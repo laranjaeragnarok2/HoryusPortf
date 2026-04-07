@@ -23,6 +23,15 @@ const techProjects: Project[] = [
         className: "md:col-span-1"
     },
     {
+        title: "Formatto — Hub de Comunicação Industrial",
+        description: "Interface de alta fidelidade para o setor de comunicação visual e grandes formatos. O projeto foca na autoridade de marca e na facilidade de orçamento, transformando processos industriais complexos em uma experiência digital fluida e orientada a resultados.",
+        image: "/formatto.png",
+        hint: "formatto industrial visual hub",
+        link: "https://github.com/laranjaeragnarok2/formatto-sovereign-hub",
+        tags: ["Next.js", "Growth Design", "Industrial UI", "B2B Ops"],
+        className: "md:col-span-1"
+    },
+    {
         title: "Legado da Ponte de Pedra (Site and Short-film)",
         description: "Este é o repositório oficial do projeto \"Legado da Ponte de Pedra\". Mais do que um site, é uma plataforma de conscientização e mobilização para a preservação de um dos mais importantes patrimônios geológicos, arqueológicos e culturais de Goiás, localizado na divisa entre Rio Verde e Paraúna.",
         image: "https://i.postimg.cc/gJrxYgyq/68747470733a2f2f692e706f7374696d672e63632f78546758784377502f3364613234653566366163346631383837376430.jpg",
