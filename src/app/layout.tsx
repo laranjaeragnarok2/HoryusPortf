@@ -16,6 +16,31 @@ const sourceCodePro = Source_Code_Pro({
 export const metadata: Metadata = {
   title: "Horyu's Digital Canvas",
   description: "Portfólio de Horyu Arthur",
+  icons: {
+    icon: [
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon-96x96.png', sizes: '96x96', type: 'image/png' },
+      { url: '/favicon-192x192.png', sizes: '192x192', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/favicon-57x57.png', sizes: '57x57', type: 'image/png' },
+      { url: '/favicon-60x60.png', sizes: '60x60', type: 'image/png' },
+      { url: '/favicon-72x72.png', sizes: '72x72', type: 'image/png' },
+      { url: '/favicon-76x76.png', sizes: '76x76', type: 'image/png' },
+      { url: '/favicon-114x114.png', sizes: '114x114', type: 'image/png' },
+      { url: '/favicon-120x120.png', sizes: '120x120', type: 'image/png' },
+      { url: '/favicon-144x144.png', sizes: '144x144', type: 'image/png' },
+      { url: '/favicon-152x152.png', sizes: '152x152', type: 'image/png' },
+      { url: '/favicon-180x180.png', sizes: '180x180', type: 'image/png' },
+    ],
+    other: [
+      {
+        rel: 'apple-touch-icon-precomposed',
+        url: '/favicon-152x152.png',
+      },
+    ],
+  },
 };
 
 export default function RootLayout({

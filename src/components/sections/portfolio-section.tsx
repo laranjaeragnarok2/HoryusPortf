@@ -49,15 +49,6 @@ const audiovisualProjects: AudiovisualProject[] = [
         span: "col-span-1" 
     },
     { 
-        title: "Clipe Musical - Cidade", 
-        images: [
-            { src: "https://i.imgur.com/lRwvrIP.jpeg", hint: "music video city" }, 
-            { src: "https://i.imgur.com/CFnCyBb.jpeg", hint: "urban music video" },
-            { src: "https://i.imgur.com/dcszmaD.jpeg", hint: "singer city scape" }
-        ], 
-        span: "col-span-2"
-    },
-    { 
         title: "Ensaio Streetwear Chronic x 064 Camisetas", 
         images: [
             { src: "https://i.postimg.cc/dVSwjJcv/Recap-Ensaio-que-fiz-comissionado-pela-064-camisetas-Eu-gosto-muito-da-liberdade-que-meu-6.webp", hint: "streetwear fashion" }, 
@@ -70,8 +61,7 @@ const audiovisualProjects: AudiovisualProject[] = [
         title: "Custom DarkLettering Vinil", 
         images: [
             { src: "/assets/projects/dark1.jpg", hint: "custom lettering" }, 
-            { src: "/assets/projects/dark2.jpg", hint: "vinyl sticker" },
-            { src: "https://scontent-bsb1-1.xx.fbcdn.net/v/t39.30808-6/492527251_10212567867989790_4339247791101849919_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGoanRyLz38rVveBOq5FGp5Co6YaRCNbPgKjphpEI1s-FbZHAZmpF0Pi-2bXW1ZGMU&_nc_ohc=C8nzB2DjhJcQ7kNvwEiEz0R&_nc_oc=AdlLQh_3e-zll-l_4Aw_b7fzF5Z8L4YS5O4cld38C_Sjhw2skE2qZa5EnFsDj7p9f64&_nc_zt=23&_nc_ht=scontent-bsb1-1.xx&_nc_gid=bofnQIPgG_jbCiMkDtzTvw&oh=00_AfSVr_TsCufx_KDBBDx-OtLUN5MbviDo0UMO6vM_yWFrsw&oe=68792409", hint: "dark lettering car" }
+            { src: "/assets/projects/dark2.jpg", hint: "vinyl sticker" }
         ], 
         span: "col-span-1" 
     },
@@ -83,15 +73,6 @@ const audiovisualProjects: AudiovisualProject[] = [
             { src: "https://raw.githubusercontent.com/laranjaeragnarok2/meu-portfolio-assets/main/Contemplem%20a%20fotografia%20por%20tr%C3%A1s%20de%20'%20P%20A%20S%20S%20A%20D%20O%20'%20um%20videoclipe%20do%20single%20do%20meu%20consagrado%20.jpg", hint: "music video set" }
         ], 
         span: "col-span-1" 
-    },
-    { 
-        title: "Feira Cultural", 
-        images: [
-            { src: "https://i.imgur.com/d06L9e7.jpeg", hint: "cultural fair" }, 
-            { src: "https://i.imgur.com/ODs5LcV.jpeg", hint: "event production" },
-            { src: "https://i.imgur.com/UgLz4Zo.jpeg", hint: "event photography" }
-        ], 
-        span: "col-span-1"
     },
     { 
         title: "Bosque da Cultura", 
@@ -106,8 +87,8 @@ const audiovisualProjects: AudiovisualProject[] = [
         title: "Apresentações Musicais", 
         images: [
             { src: "/assets/projects/apresen1.jpg", hint: "live music" },
-            { src: "https://scontent-bsb1-1.xx.fbcdn.net/v/t39.30808-6/464386203_10211713634114477_1531813235054857196_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGbY3Sq8MgW_iq96gpe08tfhyqijkftK7CHKqKOR-0rsE5CsCxT63vcQOWYxJmqMnc&_nc_ohc=9OM9z_jWPL4Q7kNvwHCyIlG&_nc_oc=Admqb75PvEo4CyUzc6rrPUJTR_q-ypcCYc8dumUQxw98mNq-t__o6mxYg_w49RLcxNw&_nc_zt=23&_nc_ht=scontent-bsb1-1.xx&_nc_gid=ZWL0dagD9i8CDh4eiJ8GQA&oh=00_AfQkfALvKvRpWQS_zSHq0HSdhGMmbdIkaanpLS9KM4p9lw&oe=68791538", hint: "singer stage" },
-            { src: "/msp.png", hint: "musician crowd" }
+            { src: "/assets/projects/apresen2.jpg", hint: "singer stage" },
+            { src: "/assets/projects/apresen3.jpg", hint: "musician crowd" }
         ], 
         span: "col-span-1" 
     },
