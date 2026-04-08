@@ -1,0 +1,159 @@
+# Modus Operandi & Pipeline de Vendas | Ferdinan-MSP.Group
+
+## Introdução
+O objetivo deste documento é detalhar o processo ponta a ponta da nossa operação, desde a pesquisa e atração até o pós-venda. Ele foi desenhado para maximizar a entrega do nosso ecossistema de serviços, integrando inteligência de mercado, geração de conteúdo estratégico, comunicação multicanal e um CRM próprio.
+
+**A Filosofia do Herói (Baseada na The Futur):** Toda a nossa comunicação posiciona o lead como o *Herói* de sua jornada de negócios, enquanto nós atuamos como o *Guia* que fornece o mapa (Framework de Automação) e as armas (Inteligência de Mercado, CRM, IA). O foco é reduzir a taxa de desistência de Leads Frios por meio de empatia e valor consultivo, focando na retenção e entrega de resultados mensuráveis para ampliar a satisfação e o ticket médio.
+
+---
+
+## 1. Prospecção (O Chamado à Aventura)
+*Onde identificamos heróis em potencial que precisam do nosso mapa.*
+
+* **Ferramental Atual:** Script em Python que raspa nichos ou termos de pesquisa específicos no Google Maps para gerar listas segmentadas.
+* **Inteligência Integrada:** Mapeamento d'**O Cliente Ideal** guiado por IA, cruzando os dados raspados com análise de mercado para focar apenas em quem encontra o maior valor na solução.
+* **Roadmap Técnico:** Futura integração com a LLM **Grok** para pesquisa em tempo real e enriquecimento de perfil, além da preparação da infraestrutura para integrar o **Openclaw**.
+
+
+* **Canais de Atração Ativos:**
+  * Conteúdo (Instagram `@horyu.multimedia` + YouTube `@ArthurHoryu`) — vídeos Antes/Depois, behind-the-scenes e mini-tutoriais técnicos.
+  * SEO do portfólio + LinkedIn ativo com posts sobre soluções implementadas.
+  * Parcerias com agências de marketing locais (Horyu = braço tech delas).
+  * Lead Magnets: templates gratuitos (ex: Vidromorfismo), diagnóstico digital de 10min, mini-auditoria de SEO automatizada.
+
+**ICP (Cliente Ideal):**
+
+| Segmento | Perfil |
+|---|---|
+| Negócios locais | Sem presença digital forte, precisam de LP + Google Ads |
+| Empresas B2B | Precisam de portal, hub ou investor area |
+| Startups | Querem validar MVP rápido com stack soberana |
+| Produtores culturais | Precisam de plataforma para eventos ou captação |
+
+---
+
+## 2. Contato (O Filtro do Herói)
+*A triagem e a quebra de gelo para qualificação imediata.*
+
+* **Intake Qualificado:** Aplicação de formulário focado em entender o negócio, a dor principal, orçamento e urgência antes de qualquer reunião.
+* **Comunicação Personalizada:** Elaboração de mensagens que dialogam diretamente com os desejos do cliente por meio de copy persuasivo. A pergunta central é consultiva: *"O que impede sua empresa de escalar?"*.
+* **Filtro Severo (Red Flags):** Dispensa educada de leads que buscam "escopo infinito sem decisor claro" ou que não possuem orçamento alinhado com o valor do serviço.
+
+> ⚠️ **Red Flags imediatas:** "Quero igual ao Mercado Livre por R$500" · Sem orçamento definido · Decisor ausente nas reuniões · Escopo sem limite de revisões.
+
+---
+
+## 3. Apresentação (A Sessão de Descoberta Digital)
+*O diagnóstico consultivo de alto valor.*
+
+* **Apresentação de Dados:** Demonstração da **Análise de Mercado** para posicionar a oferta do cliente de um jeito único.
+* **Definição de Canais:** Identificação cirúrgica dos **Canais de Atração** adequados (ex: LinkedIn para B2B, Redes Sociais para E-commerce).
+* **Posicionamento de Autoridade:** O foco sai da "venda de sites" para a venda de **"Liberdade Digital"** — menos dependência de SaaS caros, mais controle e previsibilidade. A IA aplica a lógica de venda para qualquer cenário.
+* **Definição de Atributos:** Alinhamento técnico e de comunicação da marca do cliente para evitar retrabalho baseado em "gosto pessoal" durante a execução.
+
+---
+
+## 4. Oferta (Os Caminhos do Guia / Stylescapes)
+*A arquitetura da solução antes da construção.*
+
+* **Deck de Proposta Tangível:** Apresentação personalizada contendo o diagnóstico, mockup visual, roadmap de entregas e ROI estimado. Demonstração de **Ativos de Captação** visuais.
+* **Estratégia dos 3 Caminhos (Ancoragem de Preço):**
+    * *Opção Essencial (Quick Win):* O básico necessário — LP de Alta Conversão, Integração de Pagamento, Bot IA.
+    * *Opção Profissional:* O ideal — LP + CRM Próprio + Nutrição Automática + Analytics.
+    * *Opção Premium (Soberania Total):* O ecossistema completo — Sovereign Growth Stack, Plataforma com IA integrada e relatórios avançados.
+
+**Tabela de Quick Wins (fechar em até 7 dias):**
+
+| Serviço | Prova no Portfólio | Tempo | Ticket |
+|---|---|---|---|
+| Landing Page CRO | Agência Métrica, Ferdinan | 3–5 dias | R$ 2.000 |
+| Portal B2B Soberano | JDE Pacheco, Formatto | 2–3 sem | R$ 8.000 |
+| Bot IA (Discord/WhatsApp) | HoryuAI, Skarner | 1–2 sem | R$ 3.000 |
+| Checkout Mercado Pago | Gateway MP | 3–5 dias | R$ 2.500 |
+| Automação n8n (3 fluxos) | Fork n8n | 1 sem | R$ 3.000 |
+| Vídeo Institucional + Site | CI.DA.DE, PAS.SA.DO | 2–3 sem | R$ 5.000 |
+| Consultoria Liberdade Digital | MSP.Group | 1 dia | R$ 500/h |
+
+**Modelo de Cobrança:**
+* 50% entrada + 50% na entrega (projetos únicos).
+* Recorrência mensal para manutenção + automação.
+* Bônus por resultado (% de conversão ou vendas geradas).
+
+---
+
+## 5. Alinhamento de Expectativas (O Acordo Objetivo)
+*O consenso e o "Sign-off" antes do primeiro código.*
+
+* **Blindagem de Escopo:** Definição clara das regras do **Filtro de Oportunidades** — pontuação automática que separa curiosos de compradores de fato.
+* **Defesa Baseada em Dados:** Qualquer objeção técnica do cliente é resolvida voltando aos dados aprovados na Sessão de Descoberta.
+* **Sprint 0:** Aprovação formal de wireframes e fluxos lógicos. A execução só começa quando há consenso absoluto entre os decisores do cliente.
+
+---
+
+## 6. Execução & Entrega (A Construção e o Rollout)
+*A mão na massa invisível e a entrega memorável.*
+
+* **Sprints e Preview:** Sprints semanais com revisões internas rigorosas (Lighthouse, Mobile-first validation) e exibição de rascunhos às quartas-feiras para feedback rápido.
+* **O Lançamento Estratégico (Reveal):** A entrega não é um link enviado por WhatsApp. É uma apresentação de impacto, relembrando o "porquê" do projeto e simulando o fluxo real de um lead no novo ecossistema.
+* **Deploy Soberano:** Liberação rigorosa (Staging → Produção, DNS configurado, SSL ativo) e uma transição pronta para o setor de vendas do cliente.
+
+**Ciclo de Qualidade por Sprint:**
+```
+Segunda  → Review do sprint anterior + planejamento da semana
+Quarta   → Preview parcial para feedback rápido (máx. 24h de resposta)
+Sexta    → Entrega do sprint + deploy em staging
+```
+
+---
+
+## 7. Pós-Venda (Acompanhamento Inteligente e Expansão)
+*A parceria de longo prazo e a prova do ROI.*
+
+* **A Prova (30 Dias):** Reunião de entrega de resultados pós-launch, apresentando **Painéis Claros** com dados em tempo real e **Relatórios Descomplicados** focados em lucro/prejuízo.
+* **Ativos de Autoridade:** Coleta de depoimento em vídeo e documentação de case study para o portfólio.
+* **Ciclo de Otimização:** Uso de **A/B Testing** para ajustar títulos e layouts continuamente, maximizando as metas de venda.
+* **Upsell e Recorrência:**
+
+| Pacote | Inclui | Ticket Mensal |
+|---|---|---|
+| Básico | Atualizações + Uptime | R$ 300/mês |
+| Pro | + Otimizações + Suporte | R$ 600/mês |
+| Premium | + Novas features | R$ 1.200/mês |
+
+**Upsells Naturais:**
+* "Seu site está indo bem, vamos adicionar um chatbot IA?"
+* "Suas vendas cresceram, hora de automatizar o funil com n8n?"
+* "Agora que tem o portal, precisa de produção de vídeo institucional?"
+
+**Programa de Indicações:**
+* 10% de desconto para o cliente que indicar.
+* Case study publicado no portfólio (com autorização).
+* Depoimento em vídeo para prova social.
+
+---
+
+## 8. Auditoria Interna & Atualização (O Retorno do Guia)
+*O momento de calibrar o nosso próprio mapa para a próxima jornada.*
+
+* **Post-Mortem Técnico:** Avaliação interna sobre quais processos técnicos (ex: automação n8n, setups de Next.js) podem ser transformados em templates mais rápidos para o próximo cliente.
+* **Atualização de Tabela de Preços:** Ajuste dos tickets de **Quick Wins** e **Projetos Complexos** baseados no esforço real versus o lucro gerado na última entrega.
+* **Atualização do Ecossistema Ferdinan:** Transformar o sucesso do cliente finalizado em material de prospecção atualizado, garantindo que a nossa própria "Geração de Autoridade" cresça independentemente do ramo de atuação.
+* **Ações de Melhoria Contínua:**
+  * Arquivar forks irrelevantes do GitHub; manter apenas os modificados.
+  * Atualizar READMEs dos projetos originais com screenshots + métricas reais.
+  * Adicionar pelo menos 1 case study com números concretos por trimestre.
+
+---
+
+## Apêndice: Stack Técnica de Referência
+
+| Camada | Tecnologia Principal |
+|---|---|
+| Frontend / Framework | Next.js 15 + TypeScript + Tailwind CSS + Shadcn/UI |
+| Backend / API | Node.js + Express / NestJS + Next.js API Routes |
+| Banco de Dados | PostgreSQL (transacional) + Firebase (real-time/NoSQL) |
+| Pagamentos | Mercado Pago (webhooks + polling + idempotência) |
+| IA & Automação | Google Genkit + Gemini 2.0 + n8n + Openclaw/Skarner |
+| Infra & Deploy | Vercel + Firebase Hosting + Docker + GitHub Actions |
+| Design & Prototipagem | Figma + Adobe Suite + Framer Motion |
+| Produção Audiovisual | Adobe Premiere + Capcut + OBS Studio |

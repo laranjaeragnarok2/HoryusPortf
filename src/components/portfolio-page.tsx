@@ -6,14 +6,13 @@ import SkillsSection from "@/components/sections/skills-section";
 import ExperienceSection from "@/components/sections/experience-section";
 import PortfolioSection, { type Project } from "@/components/sections/portfolio-section";
 import VideoSection, { type VideoProject } from "@/components/sections/video-section";
+import ServicesSection from "@/components/sections/services-section";
+import IntakeSection from "@/components/sections/intake-section";
 import FooterSection from './sections/footer-section';
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
-
 
 interface PortfolioPageProps {
-  techProjects: Project[];
-  videoProjects: VideoProject[];
+    techProjects: Project[];
+    videoProjects: VideoProject[];
 }
 
 export default function PortfolioPage({ techProjects, videoProjects }: PortfolioPageProps) {
@@ -21,11 +20,13 @@ export default function PortfolioPage({ techProjects, videoProjects }: Portfolio
     return (
         <main className="bg-background text-foreground">
             <HeroSection />
+            <ServicesSection />
             <AboutSection />
             <SkillsSection />
             <ExperienceSection />
             <PortfolioSection techProjects={techProjects} />
             <VideoSection projects={videoProjects} />
+            <IntakeSection />
             <FooterSection />
         </main>
     );
