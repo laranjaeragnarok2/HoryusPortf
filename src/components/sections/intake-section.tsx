@@ -77,7 +77,7 @@ export default function IntakeSection() {
                                         id="company"
                                         name="company"
                                         type="text"
-                                        placeholder="Ferdinan MSP Group"
+                                        placeholder="Nome da Minha Empresa"
                                         className="rounded-lg border border-border bg-background px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary transition"
                                     />
                                 </div>

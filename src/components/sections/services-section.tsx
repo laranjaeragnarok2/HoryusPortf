@@ -59,7 +59,7 @@ const packages = [
 ];
 
 const quickWins = [
-    { service: 'Landing Page CRO', proof: 'Agência Métrica, Ferdinan', time: '3–5 dias', price: 'R$ 2.000' },
+    { service: 'Landing Page CRO', proof: 'Agência Métrica, MSP Group', time: '3–5 dias', price: 'R$ 2.000' },
     { service: 'Portal B2B Soberano', proof: 'JDE Pacheco, Formatto', time: '2–3 sem', price: 'R$ 8.000' },
     { service: 'Bot IA (Discord/WhatsApp)', proof: 'HoryuAI, Skarner', time: '1–2 sem', price: 'R$ 3.000' },
     { service: 'Checkout Mercado Pago', proof: 'Gateway MP', time: '3–5 dias', price: 'R$ 2.500' },
@@ -88,8 +88,8 @@ export default function ServicesSection() {
                         <div
                             key={pkg.name}
                             className={`relative flex flex-col rounded-2xl border p-8 transition-all duration-300 ${pkg.highlight
-                                    ? 'border-primary bg-primary/5 shadow-lg shadow-primary/10 scale-[1.02]'
-                                    : 'border-border bg-card hover:border-primary/50 hover:shadow-md hover:-translate-y-1'
+                                ? 'border-primary bg-primary/5 shadow-lg shadow-primary/10 scale-[1.02]'
+                                : 'border-border bg-card hover:border-primary/50 hover:shadow-md hover:-translate-y-1'
                                 }`}
                         >
                             {pkg.highlight && (
