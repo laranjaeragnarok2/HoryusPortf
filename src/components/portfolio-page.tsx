@@ -21,11 +21,11 @@ export default function PortfolioPage({ techProjects, videoProjects }: Portfolio
         <main className="bg-background text-foreground">
             <HeroSection />
             <ServicesSection />
+            <PortfolioSection techProjects={techProjects} />
+            <VideoSection projects={videoProjects} />
             <AboutSection />
             <SkillsSection />
             <ExperienceSection />
-            <PortfolioSection techProjects={techProjects} />
-            <VideoSection projects={videoProjects} />
             <IntakeSection />
             <FooterSection />
         </main>
