@@ -6,14 +6,16 @@ export default function HeroSection() {
     return (
         <section
             id="inicio"
-            className="relative min-h-screen flex flex-col items-center justify-center text-left p-6 md:p-12 overflow-hidden bg-[#0a0a0a]"
+            className="relative min-h-screen flex flex-col items-center justify-center text-left p-6 md:p-12 overflow-hidden bg-[#081208]"
         >
             {/* Background com tom mais orgânico/profundo - Remete a crescimento e raízes */}
             <div
-                className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60 animate-[ken-burns_30s_ease-in-out_infinite_alternate]"
+                className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-80 animate-[ken-burns_30s_ease-in-out_infinite_alternate]"
                 style={{ backgroundImage: 'url(/background-hero.jpeg)' }}
             />
-            <div className="absolute inset-0 bg-gradient-to-b from-background/10 via-background/40 to-background z-0" />
+            {/* Overlay verde sutil para reforçar o tom "verdinho" */}
+            <div className="absolute inset-0 bg-primary/10 mix-blend-overlay z-0" />
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/30 to-background z-0" />
             
             <div className="relative z-10 max-w-5xl w-full mx-auto">
                 <div className="mb-8 overflow-hidden">
