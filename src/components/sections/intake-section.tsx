@@ -172,7 +172,7 @@ export default function IntakeSection() {
                                     'Enviando...'
                                 ) : (
                                     <>
-                                        <Send className="mr-2 h-4 w-4" /> Quero meu diagnóstico gratuito
+                                        <Send className="mr-2 h-4 w-4" /> Enviar meu desafio
                                     </>
                                 )}
                             </Button>

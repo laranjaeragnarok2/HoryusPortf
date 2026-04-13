@@ -6,77 +6,77 @@ const packages = [
     {
         icon: Zap,
         name: 'Semente',
-        subtitle: 'Tração Imediata',
-        description: 'Ideal para validar ideias e estabelecer presença. O primeiro passo para sair da inércia com um ativo digital de alta performance.',
-        price: 'R$ 1.500 – 3.500',
-        timeline: 'Entrega em até 7 dias',
+        subtitle: 'Clareza e Tração',
+        description: 'Para quem está invisível no digital. Plantamos a bandeira da sua autoridade com ativos de alta conversão, removendo o ruído entre você e seu cliente.',
+        price: 'A partir de R$ 2.500',
+        timeline: 'Entrega em até 10 dias',
         items: [
-            'Design focado em conversão (CRO)',
-            'Infraestrutura técnica invisível e rápida',
-            'Automação de processos básicos',
-            'Integração de checkout simplificado',
-            'Otimização de SEO e velocidade',
+            'Design focado em psicologia de vendas',
+            'Infraestrutura técnica invisível e veloz',
+            'Configuração de rastreamento de dados',
+            'Integração de checkout e pagamentos',
+            'Otimização extrema para dispositivos móveis',
         ],
-        cta: 'Iniciar meu plantio',
+        cta: 'Garantir meu lugar no mapa',
         highlight: false,
     },
     {
         icon: Layers,
         name: 'Ecossistema',
-        subtitle: 'Escala e Controle',
-        description: 'Uma estrutura robusta para quem já opera e precisa de ordem. Menos esforço manual, mais inteligência de dados.',
-        price: 'R$ 5.000 – 10.000',
-        timeline: 'Entrega em 2 a 4 semanas',
+        subtitle: 'Escala e Liberdade',
+        description: 'Para negócios escravos de processos manuais. Construímos a infraestrutura inteligente que permite escalar sem que você perca sua alma (ou seu tempo).',
+        price: 'A partir de R$ 7.500',
+        timeline: 'Entrega em 3 a 5 semanas',
         items: [
             'Tudo do Semente +',
-            'Central de Inteligência (CRM customizado)',
-            'Nutrição automática de relacionamento',
-            'Painéis de métricas em tempo real',
-            'Portais de autoridade para o mercado',
-            'Assistentes de IA treinados no seu negócio',
+            'Sistemas de CRM e Automação Customizados',
+            'Nutrição inteligente de relacionamento',
+            'Dashboards de decisão estratégica',
+            'Portais de autoridade e hubs de conteúdo',
+            'Assistentes de IA integrados ao seu fluxo',
         ],
-        cta: 'Escalar meu ecossistema',
+        cta: 'Automatizar meu crescimento',
         highlight: true,
     },
     {
         icon: Crown,
         name: 'Soberania',
-        subtitle: 'Liberdade Total',
-        description: 'A solução definitiva para independência digital. Pare de depender de plataformas limitadas e assuma o controle total.',
-        price: 'R$ 10.000 – 25.000',
-        timeline: 'Entrega em 4 a 8 semanas',
+        subtitle: 'Independência Total',
+        description: 'Para líderes que buscam dominar o mercado. Criamos a fortaleza da sua marca, unindo narrativa visual de alto impacto à tecnologia proprietária de elite.',
+        price: 'Sob Consulta (R$ 15k+)',
+        timeline: 'Entrega em 2 a 3 meses',
         items: [
             'Tudo do Ecossistema +',
             'Sovereign Growth Stack (Stack de Elite)',
-            'Plataformas proprietárias sem taxas',
-            'E-commerce de alto volume (Headless)',
-            'Criação de marca e narrativa visual',
-            'Produção audiovisual de alto impacto',
+            'Plataformas proprietárias sem taxas de SaaS',
+            'E-commerce de alto volume (Headless Architecture)',
+            'Identidade visual e Direção de Arte Premium',
+            'Produção audiovisual cinematográfica',
         ],
-        cta: 'Alcançar a soberania',
+        cta: 'Conquistar a soberania',
         highlight: false,
     },
 ];
 
 const quickWins = [
-    { service: 'Landing Page CRO', proof: 'Agência Métrica, MSP Group', time: '3–5 dias', price: 'R$ 2.000' },
-    { service: 'Portal B2B Soberano', proof: 'JDE Pacheco, Formatto', time: '2–3 sem', price: 'R$ 8.000' },
-    { service: 'Bot IA (Discord/WhatsApp)', proof: 'HoryuAI, Skarner', time: '1–2 sem', price: 'R$ 3.000' },
-    { service: 'Checkout Mercado Pago', proof: 'Gateway MP', time: '3–5 dias', price: 'R$ 2.500' },
-    { service: 'Automação n8n (3 fluxos)', proof: 'n8n + OpenClaw', time: '1 sem', price: 'R$ 3.000' },
-    { service: 'Vídeo Institucional + Site', proof: 'CI.DA.DE, PAS.SA.DO', time: '2–3 sem', price: 'R$ 5.000' },
-    { service: 'Consultoria Liberdade Digital', proof: 'MSP.Group', time: '1 dia', price: 'R$ 500/h' },
+    { service: 'Landing Page Estratégica', proof: 'Agência Métrica, MSP Group', time: '5 dias', price: 'A partir de R$ 2.500' },
+    { service: 'Portal B2B de Autoridade', proof: 'JDE Pacheco, Formatto', time: '3 sem', price: 'A partir de R$ 8.000' },
+    { service: 'Assistente IA (Discord/WhatsApp)', proof: 'HoryuAI, Skarner', time: '2 sem', price: 'A partir de R$ 3.500' },
+    { service: 'Sistema de Checkout Seguro', proof: 'Gateway MP', time: '5 dias', price: 'A partir de R$ 2.500' },
+    { service: 'Automação de Fluxos (n8n)', proof: 'n8n + OpenClaw', time: '1 sem', price: 'A partir de R$ 3.000' },
+    { service: 'Direção de Arte + Site', proof: 'CI.DA.DE, PAS.SA.DO', time: '3 sem', price: 'A partir de R$ 6.000' },
+    { service: 'Consultoria de Soberania Digital', proof: 'Estratégia & Diagnóstico', time: '1 dia', price: 'R$ 800/h' },
 ];
 
 export default function ServicesSection() {
     return (
         <section id="servicos" className="container mx-auto px-4 py-16 sm:py-24">
             <div className="text-center mb-12">
-                <h2 className="text-3xl font-bold tracking-tight text-center mb-2 font-headline">
-                    Os Caminhos do Guia
+                <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-center mb-6 font-headline">
+                    Estruturas de Crescimento
                 </h2>
-                <p className="text-muted-foreground max-w-2xl mx-auto">
-                    Cada negócio está num estágio diferente. Escolha o caminho certo para o seu momento.
+                <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+                    Não vendemos sites. Construímos os ativos que sustentam a soberania do seu negócio.
                 </p>
             </div>
 
@@ -137,9 +137,9 @@ export default function ServicesSection() {
                 })}
             </div>
 
-            {/* Quick Wins table */}
+            {/* Tactical Actions table */}
             <div>
-                <h3 className="text-xl font-bold text-center mb-6">⚡ Quick Wins — Entregas Rápidas com Alto Impacto</h3>
+                <h3 className="text-2xl font-bold text-center mb-8 italic">⚡ Ações Táticas — Tração Imediata para o seu Negócio</h3>
                 <div className="overflow-x-auto rounded-xl border border-border">
                     <table className="w-full text-sm">
                         <thead>
@@ -163,8 +163,8 @@ export default function ServicesSection() {
                     </table>
                 </div>
                 <div className="text-center mt-8">
-                    <Button asChild size="lg">
-                        <Link href="#diagnostico">Quero um diagnóstico gratuito →</Link>
+                    <Button asChild size="lg" className="rounded-none font-bold">
+                        <Link href="#diagnostico">Solicitar intervenção estratégica →</Link>
                     </Button>
                 </div>
             </div>
