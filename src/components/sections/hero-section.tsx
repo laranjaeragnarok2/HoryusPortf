@@ -10,10 +10,10 @@ export default function HeroSection() {
         >
             {/* Background com tom mais orgânico/profundo - Remete a crescimento e raízes */}
             <div
-                className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40 mix-blend-luminosity animate-[ken-burns_30s_ease-in-out_infinite_alternate]"
-                style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?q=80&w=2000&auto=format&fit=crop)' }}
+                className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60 animate-[ken-burns_30s_ease-in-out_infinite_alternate]"
+                style={{ backgroundImage: 'url(/background-hero.jpeg)' }}
             />
-            <div className="absolute inset-0 bg-gradient-to-b from-background/20 via-background/60 to-background z-0" />
+            <div className="absolute inset-0 bg-gradient-to-b from-background/10 via-background/40 to-background z-0" />
             
             <div className="relative z-10 max-w-5xl w-full mx-auto">
                 <div className="mb-8 overflow-hidden">
