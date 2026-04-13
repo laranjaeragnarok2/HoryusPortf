@@ -6,64 +6,68 @@ export default function HeroSection() {
     return (
         <section
             id="inicio"
-            className="relative min-h-screen flex flex-col items-center justify-center text-center p-4 overflow-hidden"
+            className="relative min-h-screen flex flex-col items-center justify-center text-left p-6 md:p-12 overflow-hidden bg-[#0a0a0a]"
         >
+            {/* Background com tom mais orgânico/profundo - Remete a crescimento e raízes */}
             <div
-                className="absolute inset-0 bg-cover bg-center bg-no-repeat animate-[ken-burns_25s_ease-in-out_infinite_alternate]"
-                style={{ backgroundImage: 'url(https://i.ibb.co/RTBFm7Hn/envato-labs-image-edit-1.png)' }}
+                className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40 mix-blend-luminosity animate-[ken-burns_30s_ease-in-out_infinite_alternate]"
+                style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?q=80&w=2000&auto=format&fit=crop)' }}
             />
-            <div className="absolute inset-0 bg-background/70 backdrop-blur-sm z-0" />
-            <div className="relative z-10 max-w-4xl mx-auto">
-                <div className="mb-4">
-                    <h2 className="text-lg font-semibold text-primary tracking-widest uppercase">Horyu Arthur</h2>
+            <div className="absolute inset-0 bg-gradient-to-b from-background/20 via-background/60 to-background z-0" />
+            
+            <div className="relative z-10 max-w-5xl w-full mx-auto">
+                <div className="mb-8 overflow-hidden">
+                    <h2 className="text-sm font-medium text-primary tracking-[0.3em] uppercase animate-in fade-in slide-in-from-bottom-4 duration-1000">
+                        Horyu Arthur — Estrategista & Desenvolvedor
+                    </h2>
                 </div>
-                <h1 className="text-4xl md:text-6xl font-bold tracking-tighter mb-4 font-headline">
-                    Você tem o negócio.
+
+                <h1 className="text-5xl md:text-8xl font-bold tracking-tight mb-8 font-headline leading-[0.9] animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-200">
+                    Tecnologia com alma.
                     <br />
-                    <span className="text-primary">Eu tenho o mapa.</span>
+                    <span className="text-muted-foreground/50 italic font-light">Estratégia com raízes.</span>
                 </h1>
-                <p className="text-lg md:text-xl text-muted-foreground mb-4 max-w-2xl mx-auto">
-                    Design, tecnologia e automação unidos para transformar presença digital em resultado real.
-                </p>
-                <p className="text-sm text-muted-foreground/70 mb-10 max-w-xl mx-auto italic">
-                    Do diagnóstico ao deploy — sem achismo, sem retrabalho.
-                </p>
-                <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-12">
-                    <Button asChild size="lg">
-                        <Link href="#diagnostico">🔬 Quero meu Diagnóstico Gratuito</Link>
-                    </Button>
-                    <Button asChild variant="outline" size="lg">
-                        <Link href="#portfolio">Ver Projetos</Link>
-                    </Button>
-                    <Button asChild variant="ghost" size="lg">
-                        <Link href="mailto:1horyuarthur@gmail.com">
-                            <Mail className="mr-2 h-4 w-4" /> Contato
+
+                <div className="max-w-xl animate-in fade-in slide-in-from-bottom-12 duration-1000 delay-500">
+                    <p className="text-xl md:text-2xl text-muted-foreground mb-10 leading-relaxed font-light">
+                        Construindo ecossistemas digitais que respiram, evoluem e geram liberdade soberana para o seu negócio.
+                    </p>
+                    
+                    <div className="flex flex-col sm:flex-row items-start sm:items-center gap-8">
+                        <Button asChild size="lg" className="rounded-none px-10 py-7 text-lg bg-primary hover:bg-primary/90 transition-all font-bold tracking-tight">
+                            <Link href="#diagnostico">Cultivar meu Projeto →</Link>
+                        </Button>
+                        <Link 
+                            href="#portfolio" 
+                            className="text-sm uppercase tracking-[0.2em] font-bold hover:text-primary transition-colors border-b border-muted-foreground/30 pb-1"
+                        >
+                            Ver Portfólio
                         </Link>
-                    </Button>
-                </div>
-                <div className="flex justify-center gap-6">
-                    <Link
-                        href="https://github.com/laranjaeragnarok2"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-muted-foreground hover:text-primary transition-colors"
-                    >
-                        <Github size={24} />
-                        <span className="sr-only">GitHub</span>
-                    </Link>
-                    <Link
-                        href="https://www.linkedin.com/in/arthur-horyu-128933363/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-muted-foreground hover:text-primary transition-colors"
-                    >
-                        <Linkedin size={24} />
-                        <span className="sr-only">LinkedIn</span>
-                    </Link>
+                    </div>
                 </div>
             </div>
-            <div className="absolute bottom-10 animate-bounce z-10">
-                <ArrowDown className="h-6 w-6 text-muted-foreground" />
+
+            {/* Redes Sociais Minimalistas na Lateral */}
+            <div className="absolute right-6 bottom-12 hidden md:flex flex-col gap-6 z-20">
+                <Link href="https://github.com/laranjaeragnarok2" target="_blank" className="text-muted-foreground hover:text-primary transition-colors">
+                    <Github size={18} />
+                </Link>
+                <Link href="https://www.linkedin.com/in/arthur-horyu-128933363/" target="_blank" className="text-muted-foreground hover:text-primary transition-colors">
+                    <Linkedin size={18} />
+                </Link>
+                <Link href="mailto:1horyuarthur@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
+                    <Mail size={18} />
+                </Link>
+            </div>
+
+            <div className="absolute left-6 bottom-12 hidden md:block z-20">
+                <p className="text-[9px] uppercase tracking-[0.6em] text-muted-foreground/40 [writing-mode:vertical-rl] rotate-180 font-medium">
+                    EST. 2026 — DIGITAL SOVEREIGNTY
+                </p>
+            </div>
+
+            <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce z-10 opacity-30">
+                <ArrowDown className="h-5 w-5 text-muted-foreground" />
             </div>
         </section>
     );

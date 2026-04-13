@@ -36,11 +36,11 @@ export default function IntakeSection() {
             <div className="container mx-auto px-4">
                 <div className="max-w-2xl mx-auto">
                     <div className="text-center mb-10">
-                        <h2 className="text-3xl font-bold tracking-tight font-headline mb-2">
-                            🔬 Diagnóstico Gratuito
+                        <h2 className="text-3xl md:text-5xl font-bold tracking-tight font-headline mb-4">
+                            Vamos cultivar o <span className="text-primary italic">seu amanhã?</span>
                         </h2>
-                        <p className="text-muted-foreground">
-                            Responda 5 perguntas e eu te mostro exatamente qual o próximo passo para o seu negócio escalar. Sem enrolação.
+                        <p className="text-muted-foreground text-lg max-w-xl mx-auto">
+                            O diagnóstico é o primeiro passo para a liberdade. Me conte sobre seu desafio e eu trarei as raízes técnicas.
                         </p>
                     </div>
 
