@@ -14,8 +14,27 @@ const sourceCodePro = Source_Code_Pro({
 });
 
 export const metadata: Metadata = {
-  title: "Horyu's Digital Canvas",
-  description: "Portfólio de Horyu Arthur",
+  title: "Horyu Arthur | Portfolio Web",
+  description: "Portfólio profissional de Horyu Arthur - Desenvolvedor Full Stack, Designer e Artista Audiovisual. Explore projetos que unem tecnologia, design e cultura.",
+  openGraph: {
+    title: "Horyu Arthur | Portfolio Web",
+    description: "Conheça o trabalho de Horyu Arthur, especialista em soluções digitais e criação audiovisual.",
+    images: [
+      {
+        url: "https://i.ibb.co/DSMjdWF/image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Horyu Arthur Portfolio",
+      },
+    ],
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Horyu Arthur | Portfolio Web",
+    description: "Conheça o trabalho de Horyu Arthur, especialista em soluções digitais e criação audiovisual.",
+    images: ["https://i.ibb.co/DSMjdWF/image.jpg"],
+  },
   icons: {
     icon: [
       { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },

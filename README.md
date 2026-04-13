@@ -1,8 +1,8 @@
-# Horyu's Digital Canvas - Portfolio Pessoal
+# Horyu Arthur | Portfolio Web
 
 ![Portfolio Hero Section](https://i.ibb.co/RTBFm7Hn/envato-labs-image-edit-1.png)
 
-Bem-vindo ao repositório do meu portfólio pessoal. Este projeto é mais do que um simples site; é uma tela digital onde eu apresento minha jornada como um profissional multidisciplinar, construindo pontes entre **tecnologia**, **design** e **cultura**.
+Bem-vindo ao repositório do meu portfólio pessoal. Este projeto é mais do que um simples site; é onde eu apresento minha jornada como um profissional multidisciplinar, construindo pontes entre **tecnologia**, **design** e **cultura**.
 
 ## 🚀 Tecnologias Utilizadas
 

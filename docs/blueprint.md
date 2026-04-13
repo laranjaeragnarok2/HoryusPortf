@@ -1,4 +1,4 @@
-# **App Name**: Horyu's Digital Canvas
+# **App Name**: Horyu Arthur | Portfolio Web
 
 ## Core Features:
 
