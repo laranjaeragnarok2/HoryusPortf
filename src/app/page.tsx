@@ -15,7 +15,7 @@ const techProjects: Project[] = [
     },
     {
         title: "JDE Pacheco — Engineering & Tech Portal",
-        description: "Portal B2B de engenharia e infraestrutura. Design industrial focado na soberania de marca, apresentando portfólio de obras, licitações e uma área exclusiva de Investor Hub.",
+        description: "Portal B2B de engenharia e infraestrutura. Design artesanal focado na essência da marca, apresentando portfólio de obras, licitações e uma área exclusiva de Investor Hub.",
         image: "/JDE-PAcheco.png",
         hint: "jde pacheco engineering portal",
         link: "https://github.com/laranjaeragnarok2/jde-sovereign-portal",
@@ -23,21 +23,21 @@ const techProjects: Project[] = [
         className: ""
     },
     {
-        title: "Skarner — Assistente de IA de Elite",
+        title: "Skarner — Assistente de IA Personalizado",
         description: "Protocolo Battlecast baseado na arquitetura OpenClaw e Google Gemini 2.0. Um assistente focado em engenharia tática, monitoramento contínuo de projetos e geração de scripts rápidos para automação local.",
         image: "/skarner.jpeg",
-        hint: "ai elite assistant",
+        hint: "ai personal assistant",
         link: "https://github.com/laranjaeragnarok2/Skarner",
         tags: ["AI Assistant", "Gemini 2.0", "OpenClaw", "Automação"],
         className: ""
     },
     {
-        title: "MSP.Group — The Sovereign Growth Stack",
+        title: "MSP.Group — Ecossistema de Experiência Orgânica",
         description: "Construção de um ecossistema digital blindado e ultrarrápido. Unindo a estética Dark/Gold com engenharia de ponta, o projeto automatiza todo o funil: desde a captura via Lead Magnets até o fechamento via CRM integrado. Uma prova de conceito de como a união entre design sofisticado e automação severa pode escalar operações de consultoria sem custos fixos de software.",
         image: "/msp.png",
-        hint: "msp group sovereign stack",
+        hint: "msp group organic stack",
         link: "https://msp.group",
-        tags: ["NextAuth", "Firebase", "Automation", "Digital Sovereignty"],
+        tags: ["NextAuth", "Firebase", "Automation", "Organic Identity"],
         className: "md:col-span-1"
     },
     {
@@ -51,7 +51,7 @@ const techProjects: Project[] = [
     },
     {
         title: "Formatto — Hub de Comunicação Industrial",
-        description: "Interface de alta fidelidade para o setor de comunicação visual e grandes formatos. O projeto foca na autoridade de marca e na facilidade de orçamento, transformando processos industriais complexos em uma experiência digital fluida e orientada a resultados.",
+        description: "Interface de alta fidelidade para o setor de comunicação visual e grandes formatos. O projeto foca na autenticidade da marca e no refinamento do detalhe, transformando processos industriais complexos em uma experiência digital fluida e humana.",
         image: "/formatto.png",
         hint: "formatto industrial visual hub",
         link: "https://github.com/laranjaeragnarok2/formatto-sovereign-hub",

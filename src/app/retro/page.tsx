@@ -183,8 +183,8 @@ const projectsMain: RetroProject[] = [
     priority: "high",
   },
   {
-    title: "Formatto Sovereign Hub",
-    description: "Ecossistema digital de elite para a Formatto Comunicação Visual. HUB completo da empresa.",
+    title: "Formatto Organic Hub",
+    description: "Ecossistema digital artesanal para a Formatto Comunicação Visual. Onde o detalhe encontra a tecnologia.",
     tags: ["Next.js", "TypeScript", "Tailwind CSS"],
     link: "https://github.com/laranjaeragnarok2/formatto-sovereign-hub",
     priority: "high",
@@ -214,7 +214,7 @@ const projectsMain: RetroProject[] = [
   },
   {
     title: "JDE Pacheco — Engineering & Tech Portal",
-    description: "Portal B2B de engenharia e infraestrutura. Design industrial focado na soberania de marca, apresentando licitações e Investor Hub.",
+    description: "Portal B2B de engenharia e infraestrutura. Design artesanal focado na essência da marca, priorizando cada detalhe da jornada.",
     tags: ["Next.js", "B2B", "Industrial Design", "Investor Hub"],
     link: "https://github.com/laranjaeragnarok2/jde-sovereign-portal",
     priority: "mid",
@@ -234,8 +234,8 @@ const projectsMain: RetroProject[] = [
     priority: "mid",
   },
   {
-    title: "Skarner — Assistente de IA de Elite",
-    description: "Protocolo Battlecast baseado na arquitetura OpenClaw e Google Gemini 2.0. Um assistente focado em engenharia tática e automação.",
+    title: "Skarner — Assistente de IA Personalizado",
+    description: "Protocolo Battlecast baseado na arquitetura OpenClaw e Google Gemini 2.0. Um assistente focado em refinamento técnico e fluidez.",
     tags: ["AI Assistant", "Gemini 2.0", "OpenClaw", "Automação"],
     link: "https://github.com/laranjaeragnarok2/Skarner",
     priority: "mid",

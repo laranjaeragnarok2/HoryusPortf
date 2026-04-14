@@ -40,20 +40,20 @@ const packages = [
     },
     {
         icon: Crown,
-        name: 'Soberania',
-        subtitle: 'Independência Total',
-        description: 'Para líderes que buscam dominar o mercado. Criamos a fortaleza da sua marca, unindo narrativa visual de alto impacto à tecnologia proprietária de elite.',
+        name: 'Essência',
+        subtitle: 'Atenção ao Detalhe',
+        description: 'Para marcas que valorizam a alma e o pormenor. Criamos experiências digitais vivas, onde a tecnologia desaparece para dar lugar a uma conexão humana e autêntica.',
         price: 'Sob Consulta (R$ 15k+)',
         timeline: 'Entrega em 2 a 3 meses',
         items: [
             'Tudo do Ecossistema +',
-            'Sovereign Growth Stack (Stack de Elite)',
+            'Ecossistema Digital Orgânico',
             'Plataformas proprietárias sem taxas de SaaS',
             'E-commerce de alto volume (Headless Architecture)',
             'Identidade visual e Direção de Arte Premium',
             'Produção audiovisual cinematográfica',
         ],
-        cta: 'Conquistar a soberania',
+        cta: 'Cultivar minha essência',
         highlight: false,
     },
 ];
@@ -65,7 +65,7 @@ const quickWins = [
     { service: 'Sistema de Checkout Seguro', proof: 'Gateway MP', time: '5 dias', price: 'A partir de R$ 2.500' },
     { service: 'Automação de Fluxos (n8n)', proof: 'n8n + OpenClaw', time: '1 sem', price: 'A partir de R$ 3.000' },
     { service: 'Direção de Arte + Site', proof: 'CI.DA.DE, PAS.SA.DO', time: '3 sem', price: 'A partir de R$ 6.000' },
-    { service: 'Consultoria de Soberania Digital', proof: 'Estratégia & Diagnóstico', time: '1 dia', price: 'R$ 800/h' },
+    { service: 'Consultoria de Design Orgânico', proof: 'Estratégia & Diagnóstico', time: '1 dia', price: 'R$ 800/h' },
 ];
 
 export default function ServicesSection() {
@@ -76,7 +76,7 @@ export default function ServicesSection() {
                     Estruturas de Crescimento
                 </h2>
                 <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-                    Não vendemos sites. Construímos os ativos que sustentam a soberania do seu negócio.
+                    Não criamos apenas interfaces. Tecemos as experiências que celebram a identidade e o detalhe do seu negócio.
                 </p>
             </div>
 

@@ -16,7 +16,7 @@ export default function HeroSection() {
             {/* Overlay verde sutil para reforçar o tom "verdinho" */}
             <div className="absolute inset-0 bg-primary/10 mix-blend-overlay z-0" />
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/30 to-background z-0" />
-            
+
             <div className="relative z-10 max-w-5xl w-full mx-auto">
                 <div className="mb-8 overflow-hidden">
                     <h2 className="text-sm font-medium text-primary tracking-[0.3em] uppercase animate-in fade-in slide-in-from-bottom-4 duration-1000">
@@ -32,15 +32,15 @@ export default function HeroSection() {
 
                 <div className="max-w-xl animate-in fade-in slide-in-from-bottom-12 duration-1000 delay-500">
                     <p className="text-xl md:text-2xl text-muted-foreground mb-10 leading-relaxed font-light">
-                        Construindo ecossistemas digitais que respiram, evoluem e geram liberdade soberana para o seu negócio.
+                        Construindo ecossistemas digitais que respiram, evoluem e geram impacto autêntico para o seu negócio.
                     </p>
-                    
+
                     <div className="flex flex-col sm:flex-row items-start sm:items-center gap-8">
                         <Button asChild size="lg" className="rounded-none px-10 py-7 text-lg bg-primary hover:bg-primary/90 transition-all font-bold tracking-tight">
                             <Link href="#diagnostico">Cultivar meu Projeto →</Link>
                         </Button>
-                        <Link 
-                            href="#portfolio" 
+                        <Link
+                            href="#portfolio"
                             className="text-sm uppercase tracking-[0.2em] font-bold hover:text-primary transition-colors border-b border-muted-foreground/30 pb-1"
                         >
                             Ver Portfólio
@@ -64,7 +64,7 @@ export default function HeroSection() {
 
             <div className="absolute left-6 bottom-12 hidden md:block z-20">
                 <p className="text-[9px] uppercase tracking-[0.6em] text-muted-foreground/40 [writing-mode:vertical-rl] rotate-180 font-medium">
-                    EST. 2026 — DIGITAL SOVEREIGNTY
+                    EST. 2026 — ORGANIC DIGITAL DESIGN
                 </p>
             </div>
 
