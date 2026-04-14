@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 import { Inter, Source_Code_Pro } from 'next/font/google';
+import { Navbar } from '@/components/navbar';
+import { BackToTop } from '@/components/back-to-top';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -57,8 +59,10 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className={`dark ${inter.variable} ${sourceCodePro.variable}`}>
       <body className="font-sans antialiased">
+        <Navbar />
         {children}
         <Toaster />
+        <BackToTop />
       </body>
     </html>
   );
