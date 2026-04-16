@@ -19,12 +19,12 @@ export function Navbar() {
 
     const navLinks = [
         { name: "Início", href: "#inicio" },
-        { name: "Serviços", href: "#servicos" },
-        { name: "Portfólio", href: "#portfolio" },
-        { name: "Vídeos", href: "#videos" },
         { name: "Sobre", href: "#sobre" },
         { name: "Habilidades", href: "#habilidades" },
         { name: "Experiência", href: "#experiencia" },
+        { name: "Serviços", href: "#servicos" },
+        { name: "Portfólio", href: "#portfolio" },
+        { name: "Vídeos", href: "#videos" },
         { name: "Contato", href: "#diagnostico" },
     ];
 
