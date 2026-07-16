@@ -112,8 +112,8 @@ export default function ServicesSection() {
                             <p className="text-muted-foreground text-sm mb-6 flex-grow">{pkg.description}</p>
 
                             <div className="mb-6">
-                                <p className="text-2xl font-bold text-primary">{pkg.price}</p>
-                                <p className="text-xs text-muted-foreground mt-1">{pkg.timeline}</p>
+                                <p className="text-sm font-semibold text-primary">{pkg.timeline}</p>
+                                <p className="text-xs text-muted-foreground mt-1">Escopo e investimento sob consulta</p>
                             </div>
 
                             <ul className="space-y-2 mb-8">
@@ -147,7 +147,6 @@ export default function ServicesSection() {
                                 <th className="text-left p-4 font-semibold">Serviço</th>
                                 <th className="text-left p-4 font-semibold hidden md:table-cell">Prova no Portfólio</th>
                                 <th className="text-left p-4 font-semibold">Prazo</th>
-                                <th className="text-left p-4 font-semibold">Ticket</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -156,7 +155,6 @@ export default function ServicesSection() {
                                     <td className="p-4 font-medium">{qw.service}</td>
                                     <td className="p-4 text-muted-foreground hidden md:table-cell">{qw.proof}</td>
                                     <td className="p-4 text-muted-foreground">{qw.time}</td>
-                                    <td className="p-4 font-semibold text-primary">{qw.price}</td>
                                 </tr>
                             ))}
                         </tbody>
@@ -166,6 +164,9 @@ export default function ServicesSection() {
                     <Button asChild size="lg" className="rounded-none font-bold">
                         <Link href="#diagnostico">Solicitar intervenção estratégica →</Link>
                     </Button>
+                </div>
+                <div className="mt-12 text-center text-xs text-muted-foreground/60 max-w-lg mx-auto leading-relaxed">
+                    * Os valores de investimento são estimados e personalizados com base no escopo e complexidade de cada projeto. Os serviços táticos partem de R$ 2.500. Fale comigo no diagnóstico para receber uma proposta sob medida.
                 </div>
             </div>
         </section>

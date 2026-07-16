@@ -6,8 +6,8 @@ import type { VideoProject } from "@/components/sections/video-section";
 const techProjects: Project[] = [
     {
         title: "Jaque Souline — Portfólio & Agência Cultural",
-        description: "Web app e painel inteligente de monitoramento para a artista Jaque Souline. Integra um radar automatizado de editais culturais (Prosas, MinC), automações diárias via GitHub Actions, banco de dados Supabase/PostgreSQL e um redator assistivo baseado em Inteligência Artificial com aprovação humana (Human-in-the-loop).",
-        image: "/jaque-souline.png",
+        description: "Web app e portfólio digital de alta integridade desenvolvido para a artista Jaque Souline. Destaca a importância da presença digital consistente para artistas independentes, integrando suas obras, premiações e uma Agência Cultural Automatizada com IA para captação de editais de fomento.",
+        image: "/jaque-souline.jpg",
         hint: "jaque souline artist portfolio and cultural agent",
         link: "https://jaquesouline.com.br/",
         tags: ["Next.js", "AI Agent", "Supabase", "Automation"],
@@ -15,7 +15,7 @@ const techProjects: Project[] = [
     },
     {
         title: "Recanto Ponte de Pedra — Turismo & Lazer",
-        description: "Landing page premium desenvolvida para o restaurante e atrativo turístico Recanto Ponte de Pedra. Apresenta uma interface imersiva com Bento Grid para atividades locais (gruta, camping, trilhas), design system orgânico e rústico-chique inspirado no bioma do Cerrado, e integração nativa com o Google Maps.",
+        description: "Landing page desenvolvida para o restaurante e atrativo turístico Recanto Ponte de Pedra. Atuando como uma forte prova social e canal de conversão da região, o projeto impulsionou a visibilidade do negócio através de um design rústico-chique, Bento Grid de atividades locais e SEO focado em busca local.",
         image: "/recanto.jpg",
         hint: "recanto ponte de pedra tourism website",
         link: "https://pontedepedra.tur.br/",
