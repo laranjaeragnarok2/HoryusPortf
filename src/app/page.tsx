@@ -5,6 +5,24 @@ import type { VideoProject } from "@/components/sections/video-section";
 
 const techProjects: Project[] = [
     {
+        title: "Jaque Souline — Portfólio & Agência Cultural",
+        description: "Web app e painel inteligente de monitoramento para a artista Jaque Souline. Integra um radar automatizado de editais culturais (Prosas, MinC), automações diárias via GitHub Actions, banco de dados Supabase/PostgreSQL e um redator assistivo baseado em Inteligência Artificial com aprovação humana (Human-in-the-loop).",
+        image: "/jaque-souline.png",
+        hint: "jaque souline artist portfolio and cultural agent",
+        link: "https://jaquesouline.com.br/",
+        tags: ["Next.js", "AI Agent", "Supabase", "Automation"],
+        className: ""
+    },
+    {
+        title: "Recanto Ponte de Pedra — Turismo & Lazer",
+        description: "Landing page premium desenvolvida para o restaurante e atrativo turístico Recanto Ponte de Pedra. Apresenta uma interface imersiva com Bento Grid para atividades locais (gruta, camping, trilhas), design system orgânico e rústico-chique inspirado no bioma do Cerrado, e integração nativa com o Google Maps.",
+        image: "/recanto.jpg",
+        hint: "recanto ponte de pedra tourism website",
+        link: "https://pontedepedra.tur.br/",
+        tags: ["Next.js", "Tailwind CSS", "Bento Grid", "SEO"],
+        className: ""
+    },
+    {
         title: "Mercado Pago Gateway — Integração",
         description: "Sistema robusto de mensageria e processamento de pagamentos integrado ao Mercado Pago. Inclui dashboard para monitoramento, sincronização automática de status (polling/webhooks), banco de dados em PostgreSQL com transações idempotentes e suporte a pagamentos programáticos via API keys (IA-ready).",
         image: "/gateway.png",
