@@ -115,10 +115,10 @@ const SectionTitle = ({ icon: Icon, title, description }: { icon: React.ElementT
 );
 
 const ProjectGrid = ({ projects }: { projects: Project[] }) => (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 auto-rows-auto">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
         {projects.map((item, index) => (
-            <Card key={index} className={`bg-card group overflow-hidden flex flex-col border-2 border-transparent hover:border-primary/80 transition-all duration-300 ${item.className}`}>
-                <div className="relative overflow-hidden aspect-video">
+            <Card key={index} className="bg-card group overflow-hidden flex flex-col h-full border-2 border-transparent hover:border-primary/80 transition-all duration-300">
+                <div className="relative overflow-hidden aspect-[16/9] w-full shrink-0">
                     <Image
                         src={item.image}
                         alt={item.title}
@@ -126,18 +126,18 @@ const ProjectGrid = ({ projects }: { projects: Project[] }) => (
                         data-ai-hint={item.hint}
                         className="object-cover transition-transform duration-300 group-hover:scale-105"
                     />
-                    <div className="absolute inset-0 bg-black/50 transition-colors" />
+                    <div className="absolute inset-0 bg-black/40 transition-colors group-hover:bg-black/20" />
                 </div>
-                <div className="p-6 flex flex-col flex-grow">
-                    <div className="flex-grow">
-                        <CardTitle className="mb-2">{item.title}</CardTitle>
-                        <CardDescription>
-                            <p className="text-muted-foreground prose-sm">{item.description}</p>
+                <div className="p-6 flex flex-col flex-grow justify-between">
+                    <div className="space-y-2 mb-4">
+                        <CardTitle className="text-xl font-bold line-clamp-1">{item.title}</CardTitle>
+                        <CardDescription className="text-muted-foreground text-sm line-clamp-3 leading-relaxed">
+                            {item.description}
                         </CardDescription>
                     </div>
-                    <CardFooter className="p-0 pt-4 flex justify-between items-center mt-auto">
-                        <div className="flex flex-wrap gap-2 items-center">
-                            {item.tags.map(tag => <Badge key={tag} variant="secondary">{tag}</Badge>)}
+                    <CardFooter className="p-0 pt-4 flex justify-between items-center mt-auto border-t border-border/50">
+                        <div className="flex flex-wrap gap-1.5 items-center max-w-[70%]">
+                            {item.tags.map(tag => <Badge key={tag} variant="secondary" className="text-[11px] px-2 py-0.5">{tag}</Badge>)}
                             {item.specialLink && item.specialLinkText && (
                                 <Link href={item.specialLink} target="_blank" rel="noopener noreferrer" className="relative overflow-hidden text-xs bg-primary/20 text-primary-foreground/80 px-2 py-1 rounded transition-all duration-300 reflection hover:reflection hover:bg-primary/80 hover:text-primary-foreground hover:-translate-y-px cursor-pointer">
                                     {item.specialLinkText}
@@ -145,9 +145,9 @@ const ProjectGrid = ({ projects }: { projects: Project[] }) => (
                             )}
                         </div>
                         {item.link && (
-                            <Button asChild variant="ghost" size="sm">
+                            <Button asChild variant="ghost" size="sm" className="shrink-0">
                                 <Link href={item.link} target="_blank" rel="noopener noreferrer">
-                                    Ver <ArrowRight className="ml-2 h-4 w-4" />
+                                    Ver <ArrowRight className="ml-1 h-4 w-4" />
                                 </Link>
                             </Button>
                         )}

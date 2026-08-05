@@ -112,7 +112,7 @@ const techProjects: Project[] = [
         specialLink: "https://www.change.org/p/salve-a-ponte-de-pedra-pch-prev%C3%AA-impacto-negativo-em-patrim%C3%B4nio-ambiental-e-arquiol%C3%B3gico?source_location=psf_petitions",
         specialLinkText: "Assine o Abaixo assinado",
         tags: ["Next.js", "TypeScript", "Vercel"],
-        className: "md:col-span-2"
+        className: ""
     },
     {
         title: "Medusa Store (E-commerce Headless)",
