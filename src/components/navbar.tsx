@@ -20,12 +20,10 @@ export function Navbar() {
     const navLinks = [
         { name: "Início", href: "#inicio" },
         { name: "Sobre", href: "#sobre" },
-        { name: "Habilidades", href: "#habilidades" },
-        { name: "Experiência", href: "#experiencia" },
-        { name: "Serviços", href: "#servicos" },
-        { name: "Portfólio", href: "#portfolio" },
-        { name: "Vídeos", href: "#videos" },
-        { name: "Contato", href: "#diagnostico" },
+        { name: "Projetos", href: "#portfolio" },
+        { name: "Trajetória", href: "#experiencia" },
+        { name: "Universo Criativo", href: "#criativo" },
+        { name: "Diagnóstico", href: "#diagnostico" },
     ];
 
     const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {

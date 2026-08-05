@@ -6,7 +6,6 @@ import SkillsSection from "@/components/sections/skills-section";
 import ExperienceSection from "@/components/sections/experience-section";
 import PortfolioSection, { type Project } from "@/components/sections/portfolio-section";
 import VideoSection, { type VideoProject } from "@/components/sections/video-section";
-import ServicesSection from "@/components/sections/services-section";
 import IntakeSection from "@/components/sections/intake-section";
 import FooterSection from './sections/footer-section';
 
@@ -21,11 +20,12 @@ export default function PortfolioPage({ techProjects, videoProjects }: Portfolio
         <main className="bg-background text-foreground">
             <HeroSection />
             <AboutSection />
-            <SkillsSection />
-            <ExperienceSection />
-            <ServicesSection />
             <PortfolioSection techProjects={techProjects} />
-            <VideoSection projects={videoProjects} />
+            <ExperienceSection />
+            <div id="criativo" className="scroll-mt-16">
+                <VideoSection projects={videoProjects} />
+                <SkillsSection />
+            </div>
             <IntakeSection />
             <FooterSection />
         </main>
