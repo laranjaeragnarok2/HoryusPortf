@@ -7,7 +7,7 @@ const techProjects: Project[] = [
     {
         title: "Ciclismo Santa Helena — Portal & App PWA",
         description: "Template de site para loja de ciclismo e hub esportivo PWA. Inclui mapeador de rotas GPX (Leaflet.js), integração com leaderboard KOM/QOM do Strava, calendário de eventos com inscrições via WhatsApp e suporte offline completo via Service Worker.",
-        image: "/recanto.jpg",
+        image: "/ciclismo-stahelena.jpg",
         hint: "ciclismo santa helena pwa website template",
         link: "https://github.com/laranjaeragnarok2/ciclismo-stahelena",
         tags: ["PWA", "JavaScript", "Leaflet.js", "Strava API", "Service Worker"],
@@ -16,7 +16,7 @@ const techProjects: Project[] = [
     {
         title: "Plataforma Delivery Multi-estabelecimento",
         description: "Solução completa de delivery open-source com microsserviços em GoLang (Auth, Orders, Delivery), 2 aplicativos mobile em React Native Expo (Cliente e Entregador Motoboy), painel web Kanban para restaurantes e motor de Split Financeiro D+0/D+1.",
-        image: "/gateway.png",
+        image: "/appdelivery.jpg",
         hint: "multi delivery app go react native",
         link: "https://github.com/laranjaeragnarok2/appdelivery",
         tags: ["GoLang", "React Native", "Expo", "Docker", "Split Pix", "MongoDB"],
@@ -25,7 +25,7 @@ const techProjects: Project[] = [
     {
         title: "João Photos — Portfólio & Gestão Editorial",
         description: "Plataforma e portfólio fotográfico profissional com aesthetic Off-White/Dark, gestos de touch swipe no mobile, sanitização XSS, painel de gestão protegido por hash SHA-256 e acervo curado com mais de 460 fotografias.",
-        image: "/jaque-souline.jpg",
+        image: "/joao-photos.jpg",
         hint: "joao photos editorial photography portfolio",
         link: "https://github.com/laranjaeragnarok2/joao-photos",
         tags: ["HTML5", "Vanilla JS", "CSS Tokens", "SHA-256 Auth", "UX Mobile"],
