@@ -150,6 +150,51 @@ const techProjects: Project[] = [
         tags: ["Next.js", "React", "ShadCN UI", "Tailwind CSS"],
         className: ""
     },
+    {
+        title: "KCHU — Mapeamento de Cachoeiras & Ecoturismo",
+        description: "Aplicativo mobile para mapeamento, localização GPS, navegação de trilhas e avaliações colaborativas de cachoeiras. Uma solução voltada ao ecoturismo com experiência fluida e foco na comunidade outdoor.",
+        image: "/kchu-app.jpg",
+        hint: "kchu waterfall map mobile app",
+        link: "https://github.com/laranjaeragnarok2/KCHU",
+        tags: ["JavaScript", "React Native", "Geolocation", "Ecoturismo", "Mobile"],
+        className: ""
+    },
+    {
+        title: "PicPack-SellerBot — Automação Comercial & Discord Store",
+        description: "Ecossistema de e-commerce e vendas autônomas via Discord. Integra painel web de gestão, transações instantâneas em PIX via Mercado Pago e despacho automatizado de produtos digitais por e-mail.",
+        image: "/picpack-bot.jpg",
+        hint: "picpack seller bot discord e-commerce dashboard",
+        link: "https://github.com/laranjaeragnarok2/PicPack-SellerBot",
+        tags: ["TypeScript", "Discord API", "Mercado Pago", "Pix", "Automação"],
+        className: ""
+    },
+    {
+        title: "O Narrador — Assistente de IA para RPG & Lore Wiki",
+        description: "Bot inteligente para Discord alimentado por modelos de linguagem (LLMs) voltado para mestrar e narrar campanhas de RPG. Inclui gerenciamento de memória de longo prazo e compilação automática de uma Wiki com a lore do universo.",
+        image: "/o-narrador.jpg",
+        hint: "o narrador ai rpg discord bot lore wiki",
+        link: "https://github.com/laranjaeragnarok2/onarrador",
+        tags: ["JavaScript", "AI / LLM", "Discord Bot", "Wiki Engine", "RPG"],
+        className: ""
+    },
+    {
+        title: "Republika Bar — Portal Gastronômico & Cultural",
+        description: "Plataforma digital oficial do Republika Bar em Rio Verde-GO. Desenvolvida para apresentar o acervo de coquetelaria artesanal, programação de eventos e atmosfera da marca com design sofisticado e alta conversão.",
+        image: "/rpbk-bar.jpg",
+        hint: "republika bar gastrobar website UI",
+        link: "https://github.com/laranjaeragnarok2/RPBK",
+        tags: ["Next.js", "TypeScript", "Tailwind CSS", "Gastronomia", "Local Business"],
+        className: ""
+    },
+    {
+        title: "Rádio CriAtiva — Web Rádio Descentralizada",
+        description: "Plataforma web de rádio e streaming de áudio descentralizada criada para impulsionar a cultura independente, música urbana e produções underground sem intermediários.",
+        image: "/radio-criativa.jpg",
+        hint: "radio criativa web radio streaming player",
+        link: "https://github.com/laranjaeragnarok2/Radio-CriAtiva",
+        tags: ["Web Audio", "HTML5", "Cultura Urbana", "Streaming", "Open Source"],
+        className: ""
+    },
 ];
 
 const videoProjects: VideoProject[] = [
